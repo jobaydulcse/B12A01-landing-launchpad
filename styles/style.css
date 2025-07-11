@@ -1,4 +1,4 @@
-
+/* Google Fonts */
 .inter-normal{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -17,8 +17,9 @@
 /* Header */
 header{
     background-image: url(../Assets/Hero-bg.png)
-
 }
+
+
 /* nav styles */
 nav{
     display: flex;
@@ -34,7 +35,6 @@ nav{
 nav ul{
     display: flex;
     align-items: center;
-
 }
 nav ul li {
     list-style: none;
@@ -43,34 +43,30 @@ nav ul li {
 nav li a {
     text-decoration:none ;
     font-size: 20px;
-
 }
 
 
+/* first page style */
 .first-page{
     height: 668px;
     width: 1440px;
     margin-top: 65px;
 }
 
-
-
 .btn-primary{
-background-color: #4E47FF;
-font-weight: bold;
-font-size: 16px;
-border: none;
-color: white;
-padding: 12px 36px;
-border-radius: 5px;
-gap: 10px;
-text-align: center;
-
+    background-color: #4E47FF;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    color: white;
+    padding: 12px 36px;
+    border-radius: 5px;
+    gap: 10px;
+    text-align: center;
 }
 .btn-primary:hover{
-  background-color: green;
-  font-size: 20px;
-
+    background-color: green;
+    font-size: 20px;
 }
 
 .banner-content{
@@ -79,13 +75,12 @@ text-align: center;
 }
 
 .banner-discribtion{
-
     font-size: 65px;
     font-weight: bold;
 }
 
 
-
+/* section style */
 section {
     display: flex;
     justify-content: space-between;
@@ -93,9 +88,9 @@ section {
 }
 
 .half-width {
-    /* width:1140px; */
     padding-left: 5%;
 }
+
 
 .half-width img {
     height: 328px;
@@ -109,9 +104,9 @@ section {
 }
 
 .conf-dtails{
-color:rgba(37, 36, 50, 0.5);
-font-size: 24px;
-margin: 23px 0px;
+    color:rgba(37, 36, 50, 0.5);
+    font-size: 24px;
+    margin: 23px 0px;
 }
 
 
@@ -122,23 +117,21 @@ margin: 23px 0px;
     border-radius: 24px;
     text-align: center;
     padding: 50px 80px;
-    /* display: inline-block; */
     height: 506px;
     width: 1040px;
     margin-top: 5px;
     display: flex;
-   flex-direction: column;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-
 }
 
 .section-title {
     font-size: 32px;
     font-weight: 600;
     margin-bottom:0px;
-    
 }
+/* about items */
 .about-items{
     display: flex;
     justify-content: space-around;
@@ -147,65 +140,64 @@ margin: 23px 0px;
     gap: 0px;
     text-align: center;
 }
+
 .about-item{
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+/* title part */
 .item-title{
-
     font-size: 80px;
     font-weight: bold;
     margin-bottom: 0px;
     color: rgba(78, 71, 255, 1);
-
 }
-
+ 
 .item-description{
     color: rgba(0, 0, 0, 0.5);
     font-size: 20px;
-
 }
 
-/* section2 ekhane hobe */
-/* skills section style */
+/* section2 style */
 .reviews-container{
-display: flex;
-gap: 24px;
-       
-
+    display: flex;
+    gap: 24px;
 }
 
 .text-center{
     text-align: center;
 }
-.review-title{
-font-style:normal;
-font-size: 35px;
 
+.review-title{
+    font-style:normal;
+    font-size: 35px;
 }
 
 .review-description{
-font-size: 25px;
+    font-size: 25px;
 }
+
 .reviews{
     display: flex;
     flex-direction: column;
     align-items: center; 
     text-align: center;
 }
+
 .review{
-     text-align: left;
-     background-color: #ffffff;       
-border-radius: 12px;   
-border: 2px solid rgba(242, 237, 237, 1); 
-padding: 15px;
+    text-align: left;
+    background-color: #ffffff;       
+    border-radius: 12px;   
+    border: 2px solid rgba(242, 237, 237, 1); 
+    padding: 15px;
 }
+
+/*image */
 .review img {
    display: inline-block; 
- vertical-align: middle;
+    vertical-align: middle;
 }
 
 .avater-section{
@@ -213,6 +205,7 @@ padding: 15px;
     align-items: center;
     gap: 10px;
 }
+
 .avater-section img {
   width: 40px;        
   height: 40px;
@@ -228,36 +221,39 @@ padding: 15px;
     display: flex;
     margin: 50px;
 }
+
 footer{
     padding:130px 230px ;
     display: flex;
     gap: 100px;
 }
+
 .footer-column{
     padding: 20px 0px;
     display: flex;
     text-align: center;
 }
 
-footer input[type="text"], footer input[type="email"],footer textarea
-{
-height: 64px;
-border-radius: 10px;
-background-color: white;
-display: block;
-width: 497px;
-font-size: 16px;
-padding: 10px 20px;
-margin-bottom: 24px;
-border: 2px solid rgba(214, 221, 237, 1);}
+/* form section */
+footer input[type="text"], footer input[type="email"],footer textarea{
+    height: 64px;
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+    width: 497px;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: 2px solid rgba(214, 221, 237, 1);}
 
 .section-title{
-background: white;    
-padding: 20px 0px;
+    background: white;    
+    padding: 20px 0px;
     font-size: 97px;
     font-weight: bold;
-background: none;   
+    background: none;   
 }
+
 .full-box{
     width: 497px;
 }
@@ -271,16 +267,6 @@ background: none;
 
 /* last footer */
 .last-footer{
-    padding: 104px 455px;
-    height: 428px;
-    width: 1440px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: rgba(137, 135, 161, 1);
-    text-decoration: none;
-    /* fdsfdssfadsdfsddgas */
     margin: 0 auto;
     width: 100%;
     max-width: 1200px;
@@ -293,10 +279,15 @@ background: none;
     align-items: center;
     justify-content: center;
     text-align: center;
+    background-color: white;
+    width: 100vw;
 
 }
+
 .logo-align{
-text-align: left;
+    text-align: left;
+    background-color: white;
+
 }
 
 .link-bar{
@@ -304,6 +295,7 @@ text-align: left;
     list-style: none;
     text-align: center;
 }
+
 footer div ul li a{
     text-decoration: none;
     display: inline-block;
@@ -311,16 +303,20 @@ footer div ul li a{
     margin: 30px;
     text-align: center;
 }
-ul {
+
+ul{
   list-style: none;
   padding: 0;
   margin: 0;
   display: flex;
   gap: 20px;
 }
+
 ul li a {
   white-space: nowrap;
 }
+
+
 .last-footer a:visited,
 .last-footer a:hover,
 .last-footer a:active {
