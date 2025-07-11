@@ -11,6 +11,7 @@
   font-optical-sizing: auto;
   font-weight: 400px;
   font-style: normal;
+  font-size: 5px;
 }
 
 
@@ -116,8 +117,8 @@ section {
     background-color: rgba(78, 71, 255, 0.1);
     border-radius: 24px;
     text-align: center;
-    padding: 50px 80px;
-    height: 506px;
+    padding: 0px 80px 60px 80px;
+    height: 330px;
     width: 1040px;
     margin-top: 5px;
     display: flex;
@@ -125,9 +126,17 @@ section {
     align-items: center;
     justify-content: center;
 }
+.section-title-join{
+ background: white;    
+    padding: 20px 0px;
+    font-size: 40px;
+    font-weight: bold;
+    background: none;
+}
+
 
 .section-title {
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 600;
     margin-bottom:0px;
 }
@@ -194,6 +203,13 @@ section {
     padding: 15px;
 }
 
+.conf-dtails h1,
+.conf-dtails h2 {
+    margin: 0;
+    line-height: 1.2;
+}
+
+
 /*image */
 .review img {
    display: inline-block; 
@@ -249,9 +265,10 @@ footer input[type="text"], footer input[type="email"],footer textarea{
 .section-title{
     background: white;    
     padding: 20px 0px;
-    font-size: 97px;
+    font-size: 94px;
     font-weight: bold;
     background: none;   
+    white-space: nowrap;
 }
 
 .full-box{
@@ -270,7 +287,7 @@ footer input[type="text"], footer input[type="email"],footer textarea{
     margin: 0 auto;
     width: 100%;
     max-width: 1200px;
-     padding: 104px 20px;
+    padding: 0px 20px;
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
@@ -281,6 +298,7 @@ footer input[type="text"], footer input[type="email"],footer textarea{
     text-align: center;
     background-color: white;
     width: 100vw;
+    height: 150px;
 
 }
 
