@@ -124,7 +124,7 @@ margin: 23px 0px;
     text-align: center;
     padding: 50px 80px;
     display: inline-block;
-    height: 306px;
+    height: 506px;
     width: 1040px;
     margin-top: 5px;
     display: flex;
@@ -138,6 +138,7 @@ margin: 23px 0px;
     font-size: 32px;
     font-weight: 600;
     margin-bottom:0px;
+    
 }
 .about-items{
     display: flex;
@@ -159,6 +160,7 @@ justify-content: center;
     font-size: 80px;
     font-weight: bold;
     margin-bottom: 0px;
+    color: rgba(78, 71, 255, 1);
 
 }
 
@@ -172,31 +174,90 @@ justify-content: center;
 
 
 
+
+
 /* Footer style */
 .form-box{
     display: flex;
     margin: 50px;
 }
-/* Footer style */
-
 footer{
     padding:130px 230px ;
     display: flex;
     gap: 100px;
 }
-
 .footer-column{
-    width: 50%;
+    padding: 20px 0px;
+    display: flex;
+    text-align: center;
 }
 
 footer input[type="text"], footer input[type="email"],footer textarea
 {
 height: 64px;
-border-radius: 5px;
+border-radius: 10px;
 background-color: white;
 display: block;
-width: 100%;
+width: 497px;
 font-size: 16px;
 padding: 10px 20px;
 margin-bottom: 24px;
-border: none;}
+border: 2px solid rgba(214, 221, 237, 1);}
+
+.section-title{
+background: white;    
+padding: 20px 0px;
+    font-size: 97px;
+    font-weight: bold;
+background: none;   
+}
+.full-box{
+    width: 497px;
+}
+.text-align{
+    text-align: left;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+}
+
+/* last footer */
+.last-footer{
+    padding: 104px 455px;
+    height: 428px;
+    width: 1440px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(137, 135, 161, 1);
+    text-decoration: none;
+}
+.link-bar{
+    display: flex;
+    list-style: none;
+    text-align: center;
+}
+footer div ul li a{
+    text-decoration: none;
+    display: inline-block;
+    justify-content: space-between;
+    margin: 30px;
+    text-align: center;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+ul li a {
+  white-space: nowrap;
+}
+.last-footer a:visited,
+.last-footer a:hover,
+.last-footer a:active {
+  color:rgba(137, 135, 161, 1);
+}
