@@ -14,7 +14,6 @@
 }
 
 
-
 /* Header */
 header{
     background-image: url(../Assets/Hero-bg.png)
@@ -171,7 +170,53 @@ justify-content: center;
 }
 
 /* section2 ekhane hobe */
+/* skills section style */
+.reviews-container{
+display: flex;
+gap: 24px;
+       
 
+}
+
+.text-center{
+    text-align: center;
+}
+.review-title{
+font-style:normal;
+
+}
+
+.review-description{
+
+}
+.reviews{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+}
+.review{
+     text-align: left;
+     background-color: #ffffff;       
+border-radius: 12px;   
+border: 2px solid rgba(242, 237, 237, 1); 
+}
+.review img {
+   display: inline-block; 
+ vertical-align: middle;
+}
+
+.avater-section{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.avater-section img {
+  width: 40px;        
+  height: 40px;
+  border-radius: 50%; 
+  object-fit: cover; 
+}
 
 
 
@@ -233,6 +278,10 @@ background: none;
     align-items: center;
     color: rgba(137, 135, 161, 1);
     text-decoration: none;
+    /* fdsfdssfadsdfsddgas */
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
 }
 .link-bar{
     display: flex;
